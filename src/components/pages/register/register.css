@@ -1,0 +1,51 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("photo.jpg"); */
+    background: linear-gradient(rgba(255,255,255,-0.5), rgba(255,255,255,0.5)), url("https://images.pexels.com/photos/317355/pexels-photo-317355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+}
+/* https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.sagatraining.ca%2Fwp-content%2Fuploads%2F2018%2F10%2Fbackground-images-for-register-form-8.jpg&imgrefurl=https%3A%2F%2Fwww.sagatraining.ca%2Fbackground-images-for-register-form-8%2F&tbnid=Azyk9lW2DNf_qM&vet=10CBkQMyhyahcKEwiI0vCgy_D5AhUAAAAAHQAAAAAQAg..i&docid=mbM49e1dnqzTtM&w=1740&h=710&q=register%20page%20background%20images&ved=0CBkQMyhyahcKEwiI0vCgy_D5AhUAAAAAHQAAAAAQAg */
+.registerTitle{
+    font-size: 50px;
+    color: black;
+}
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+.registerForm >label{
+    margin: 10px 0;
+
+}
+.registerInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+    width: 183px;
+}
+.registerButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.registerLoginButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: lightcoral;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}

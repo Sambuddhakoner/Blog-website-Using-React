@@ -1,0 +1,51 @@
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("photo.jpg"); */
+    background: url("photo.jpg");
+    background-size: cover;
+}
+/* https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.sagatraining.ca%2Fwp-content%2Fuploads%2F2018%2F10%2Fbackground-images-for-login-form-8.jpg&imgrefurl=https%3A%2F%2Fwww.sagatraining.ca%2Fbackground-images-for-login-form-8%2F&tbnid=Azyk9lW2DNf_qM&vet=10CBkQMyhyahcKEwiI0vCgy_D5AhUAAAAAHQAAAAAQAg..i&docid=mbM49e1dnqzTtM&w=1740&h=710&q=login%20page%20background%20images&ved=0CBkQMyhyahcKEwiI0vCgy_D5AhUAAAAAHQAAAAAQAg */
+.loginTitle{
+    font-size: 50px;
+    color: white;
+}
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.loginForm >label{
+    margin: 10px 0;
+
+}
+.loginInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+    width: 183px;
+}
+.loginButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.loginRegisterButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
